@@ -1,0 +1,14 @@
+{
+    "name": "portico/runkeeper",
+    "description": "RunKeeper API wrapper",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1",
+        "vlucas/phpdotenv": "^2.2"
+    },
+    "authors": [
+        {
+            "name": "Logan Bailey",
+            "email": "logan@logansbailey.com"
+        }
+    ]
+}
