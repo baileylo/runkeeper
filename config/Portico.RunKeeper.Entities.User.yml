@@ -1,0 +1,16 @@
+Portico\RunKeeper\Entities\User:
+    exclusion_policy: ALL
+    properties:
+        settings: { type: string, expose: true }
+        records: { type: string, expose: true }
+        profile: { type: string, expose: true }
+        change_log: { type: string, expose: true }
+        strength_training_activities: { type: string, expose: true }
+        weight: { type: string, expose: true }
+        fitness_activities: { type: string, expose: true }
+        background_activities: { type: string, expose: true }
+        team: { type: string, expose: true }
+        sleep: { type: string, expose: true }
+        nutrition: { type: string, expose: true }
+        diabetes: { type: string, expose: true }
+        user_id: { type: integer, expose: true, serialized_name: userID }

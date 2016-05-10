@@ -1,0 +1,7 @@
+Portico\RunKeeper\Entities\ActivityFeed:
+    exclusion_policy: ALL
+    properties:
+        prev: { type: string, expose: true }
+        next: { type: string, expose: true }
+        size: { type: integer, expose: true }
+        items: { type: array<Portico\RunKeeper\Entities\Activity>, expose: true }

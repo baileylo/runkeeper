@@ -1,0 +1,25 @@
+Portico\RunKeeper\Entities\FitnessActivity:
+    exclusion_policy: ALL
+    properties:
+        uri: { type: string, expose: true }
+        user_id: { type: integer, expose: true, serialized_name: userID }
+        type: { type: string, expose: true }
+        secondary_type: { type: string, expose: true }
+        equipment: { type: string, expose: true }
+        start_time: { type: "DateTime<'D, d M Y H:i:s'>", expose: true }
+        utc_offset: { type: integer, expose: true }
+        total_distance: { type: float, expose: true }
+        duration: { type: float, expose: true }
+        average_heart_rate: { type: integer, expose: true }
+        total_calories: { type: float, expose: true }
+        climb: { type: integer, expose: true }
+        notes: { type: string, expose: true }
+        is_live: { type: boolean, expose: true }
+        share: { type: string, expose: true } # maybe call visiblity?
+        share_map: { type: string, expose: true }
+        source: { type: string, expose: true }
+        entry_mode: { type: string, expose: true }
+        tracking_mode: { type: string, expose: true }
+        activity: { type: string, expose: true }
+        comments: { type: string, expose: true }
+        previous: { type: string, expose: true }

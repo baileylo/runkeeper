@@ -1,0 +1,13 @@
+Portico\RunKeeper\Entities\Activity:
+    exclusion_policy: ALL
+    properties:
+        utc_offset: { type: integer, expose: true }
+        duration: { type: float, expose: true }
+        start_time: { type: "DateTime<'D, d M Y H:i:s'>", expose: true }
+        total_calories: { type: integer, expose: true }
+        tracking_mode: { type: string, expose: true }
+        entry_mode: { type: string, expose: true }
+        has_path: { type: boolean, expose: true }
+        source: { type: string, expose: true }
+        type: { type: string, expose: true }
+        uri: { type: string, expose: true }
